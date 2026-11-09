@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f10;
+    color: #f5f3ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: #000000;
+    width: 400px;
+    max-width: 95%;
+    padding: 35px;
+    border: 1px solid #b3b3b3;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #f72e06;
+    margin-bottom: 22px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #e9ddff;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+p {
+    margin: 15px 0;
+    color: #cfc2b5;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 14px 0 7px;
+    color: #f72e06;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #fcfbfa;
+    border-radius: 7px;
+    background: #15110c;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #f72e06;
+    box-shadow: 0 0 0 3px rgba(247, 46, 6, 0.15);
+}
+
+button {
+    background: #f72e06;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #df7a44;
+    transform: translateY(-2px);
+}
+
+form button {
+    width: 100%;
+}
+
+a {
+    color: #f72e06;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffddc0;
+    text-decoration: underline;
+}
+
+.error {
+    color: #ff7777;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+th, td {
+    border: 1px solid #534136;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #4d3429;
+    color: #ffd4b5;
+}
+
+td {
+    background: #261915;
+    color: #f2e7de;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+}
